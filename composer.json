@@ -1,21 +1,21 @@
 {
-    "name": "gdm/framework-class-helper",
-    "description": "GDM Framework - Class helper",
-    "homepage": "https://github.com/guru-digital/framework-class-helper/",
-    "keywords": [""],
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "Corey Sewell - Guru Digital Media",
-            "email": "corey@gdmedia.tv"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/guru-digital/framework-class-helper/issues"
-    },
-    "autoload": {
-        "psr-0": {
-            "GDM": "./"
-        }
-    }
+	"name": "gdm/framework-class-helper",
+	"description": "GDM Framework - Class helper",
+	"homepage": "https://github.com/guru-digital/framework-class-helper/",
+	"keywords": ["reflection"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Corey Sewell - Guru Digital Media",
+			"email": "corey@gdmedia.tv"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/guru-digital/framework-class-helper/issues"
+	},
+	"autoload": {
+		"psr-4": {
+			"GDM\\": "GDM/"
+		}
+	}
 }
