@@ -17,5 +17,8 @@
 		"psr-4": {
 			"GDM\\": "GDM/"
 		}
+	},
+	"require": {
+		"gdm/framework-types": "^0.0.1"
 	}
 }

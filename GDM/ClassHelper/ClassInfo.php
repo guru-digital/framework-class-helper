@@ -2,17 +2,27 @@
 
 namespace GDM\ClassHelper;
 
+use ReflectionClass;
+use Reflector;
+
 class ClassInfo {
 
 	public $class;
 
+	/**
+	 *
+	 * @var ReflectionClass
+	 */
+	protected $reflectionClass;
+
 	public function __construct($class) {
-		$this->class = $class;
+		$this->class			 = $class;
+		$this->reflectionClass	 = new ReflectionClass($class);
 	}
 
 	/**
 	 * 
-	 * @return \Reflector
+	 * @return Reflector
 	 */
 	public static function create($class) {
 		return new ClassInfo($class);
@@ -42,6 +52,10 @@ class ClassInfo {
 			}
 		}
 		return $values;
+	}
+
+	public function getConstants() {
+		return $this->reflectionClass->getConstants();
 	}
 
 }
