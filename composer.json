@@ -4,6 +4,7 @@
 	"homepage": "https://github.com/guru-digital/framework-class-helper/",
 	"keywords": ["reflection"],
 	"license": "BSD-3-Clause",
+	"version": "0.0.2",
 	"authors": [
 		{
 			"name": "Corey Sewell - Guru Digital Media",
