@@ -20,6 +20,6 @@
 		}
 	},
 	"require": {
-		"gdm/framework-types": "^0.0.1"
+		"gdm/framework-types": "~1"
 	}
 }
